@@ -130,6 +130,9 @@ dbus-user.broadcast com.nokia.profiled=com.nokia.profiled.*@/*
 dbus-user.talk com.nokia.time
 dbus-user.broadcast com.nokia.time=com.nokia.time.*@/*
 # END sessionbus-com.nokia.time.resource
+# BEG systembus-org.instance_unique_device_id
+dbus-system.talk org.instance_unique_device_id
+# END systembus-org.instance_unique_device_id
 # BEG sessionbus-org.maliit.server.resource
 dbus-user.talk org.maliit.server
 dbus-user.broadcast org.maliit.server=org.maliit.server.*@/*
